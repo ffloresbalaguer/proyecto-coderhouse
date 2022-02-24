@@ -1,0 +1,15 @@
+@import 'base/images';
+
+section {
+    div {
+        div {
+            p {
+                color: black;
+
+                &::selection {
+                    color: orangered; background: blueviolet;
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,14 @@
 .card-img-top {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
+
+section div div p {
+  color: black;
+}
+section div div p::selection {
+  color: orangered;
+  background: blueviolet;
+}
+
+/*# sourceMappingURL=style.css.map */
