@@ -3,12 +3,13 @@
   height: auto;
 }
 
-section div div p {
-  color: black;
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
-section div div p::selection {
-  color: orangered;
-  background: blueviolet;
+
+nav {
+  background-color: grey;
 }
 
 /*# sourceMappingURL=style.css.map */

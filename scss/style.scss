@@ -1,15 +1,8 @@
+@import 'base/maps';
+@import 'base/extend';
 @import 'base/images';
+@import 'base/mixins';
 
-section {
-    div {
-        div {
-            p {
-                color: black;
-
-                &::selection {
-                    color: orangered; background: blueviolet;
-                }
-            }
-        }
-    }
+nav {
+    background-color: map-get($navbar, bg-navbar);
 }
