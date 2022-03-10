@@ -1,6 +1,0 @@
-@import '../base/maps';
-@import '../base/mixins';
-
-nav { background-color: map-get($navbar, bg-navbar);
-    @include decoration;
-}

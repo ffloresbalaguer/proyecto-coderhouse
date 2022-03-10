@@ -1,8 +1,8 @@
 @import 'base/maps';
 @import 'base/extend';
-@import 'base/images';
 @import 'base/mixins';
+@import 'components/images';
 
-nav {
-    background-color: map-get($navbar, bg-navbar);
+main {
+    margin-top: 100px;
 }
