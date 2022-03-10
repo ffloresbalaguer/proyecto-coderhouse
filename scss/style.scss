@@ -1,8 +1,19 @@
 @import 'base/maps';
 @import 'base/extend';
-@import 'base/images';
 @import 'base/mixins';
+@import 'components/images';
+@import 'components/footer';
+@import 'components/navbar.scss';
 
-nav {
-    background-color: map-get($navbar, bg-navbar);
+main {
+    margin-top: 50px;
 }
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url("../media/Peyoteback.jpg");
+}
+
