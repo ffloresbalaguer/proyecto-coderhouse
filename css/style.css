@@ -8,8 +8,25 @@ img {
   height: auto;
 }
 
+footer {
+  background-color: grey;
+}
+
+footer div {
+  display: flex;
+  justify-content: flex-start;
+}
+
 main {
   margin-top: 50px;
+}
+
+.top-buffer {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url("../media/Peyoteback.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
